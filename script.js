@@ -1,4 +1,4 @@
-document.getElementById('myButton').addEventListener('click', function() {
+Odocument.getElementById('cmdINGRESSO').addEventListener('click', function() {
     // URL del Google Apps Script
     const url = 'https://script.google.com/macros/s/AKfycby9wCzyyBJzc_NZ-cV8Qsa8_QVIGSu6Edulrf4IydC7OraFWproBIlKngpHoqSb8lVn/exec';
 
