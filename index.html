@@ -1,42 +1,15 @@
-A<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tre Pulsanti</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: left;
-            height: 30vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-        .button-container {
-            display: flex;
-            gap: 10px;
-        }
-        .button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .button:hover {
-            background-color: #ccc;
-        }
-    </style>
+    <title>La Mia Web App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="button-container">
-        <button class="button" onclick="alert('Hai cliccato il primo pulsante!')">INGRESSO</button>
-        <button class="button" onclick="alert('Hai cliccato il secondo pulsante!')">USCITA</button>
-        <button class="button" onclick="alert('Hai cliccato il terzo pulsante!')">BACHECA</button>
-    </div>
+    <h1>Benvenuto nella mia Web App!</h1>
+    <button id="myButton">Cliccami!</button>
+    <div id="result"></div>
+    <script src="script.js"></script>
 </body>
 </html>
-
